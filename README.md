@@ -1,7 +1,7 @@
 ### Simple router with a static routing table.
-The router receives raw Ethernet frames.
+The router receives raw Ethernet frames.  
 It processes the packets, then forwards them to the correct outgoing interface.  
-The router routes packets from an emulated host (client)
+The router routes packets from an emulated host (client)  
 -> two (2) emulated application servers (HTTP Server 1 and 2) sitting behind the router.  
 The application servers are each running an HTTP server. You can access these servers using regular client software.  
 
